@@ -166,6 +166,13 @@
   --button-border:1px solid #FFFFFF;
 }
 
+/* GoToSocial */
+.button.button-gotosocial {
+	--button-text:#ffffff;
+	--button-background:#aa55ff;
+	--button-border:1px solid #ffffff;
+}
+
 /* Gravatar */
 .button-gravatar {
   --button-text:#101517;
@@ -429,6 +436,13 @@
 .button.button-speedrun {
 	--button-text: #FFFFFF;
 	--button-background:#199C77;
+}
+
+/* Tangled */
+.button-tangled {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
 }
 
 /* Tidal */
