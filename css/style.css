@@ -48,6 +48,8 @@
 }
 
 body {
+  background-color: rgb(74, 9, 105);
+  color: rgb(232 232 232);
   font-family: "Open Sans", system-ui;
   font-size: var(--scale-1);
   font-weight: 400;
@@ -56,6 +58,7 @@ body {
 
 h1 {
   margin: 0 0 var(--spacing-m);
+  color: rgb(255 84 164);
   font-size: var(--scale-5);
   font-weight: 800;
   line-height: 1.1;
@@ -147,23 +150,21 @@ a:hover {
   margin-right: 0.5rem;
 }
 
-:root.theme-auto {
-  color-scheme: light dark;
+:root.theme-dark {
+  color-scheme: dark;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root.theme-auto :focus-visible {
-    outline: 2px solid #4899f7;
-    outline-offset: 2px;
-  }
+:root.theme-dark :focus-visible {
+  outline: 2px solid #4899f7;
+  outline-offset: 2px;
+}
 
-  :root.theme-auto a:not(.button) {
-    color: #4899f7;
-  }
+:root.theme-dark a:not(.button) {
+  color: #4899f7;
+}
 
-  :root.theme-auto a:not(.button):hover {
-    color: #7ab8ff;
-  }
+:root.theme-dark a:not(.button):hover {
+  color: #7ab8ff;
 }
 
 @media (max-width: 34.375rem) {
