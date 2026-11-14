@@ -31,9 +31,10 @@
   --button-border: 1px solid #ffffff;
 }
 
-.button-last-fm {
+.button-rocksky {
   --button-text: #ffffff;
-  --button-background: #d51007;
+  --button-background: #1a112a;
+  --button-border: 1px solid #ffffff;
 }
 
 .button-loops {
