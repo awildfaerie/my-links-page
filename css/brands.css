@@ -37,12 +37,6 @@
   --button-border: 1px solid #ffffff;
 }
 
-.button-loops {
-  --button-text: #000000;
-  --button-background: #ffe400;
-  --button-border: 1px solid #000000;
-}
-
 .button-signal {
   --button-text: #ffffff;
   --button-background: #3b45fd;
