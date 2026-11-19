@@ -199,7 +199,7 @@ a:hover {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2") format("woff2");
+  src: url("../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2?v=52a27a6a1c") format("woff2");
 }
 
 @font-face {
@@ -207,7 +207,7 @@ a:hover {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2") format("woff2");
+  src: url("../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2?v=bba8d203d0") format("woff2");
 }
 
 @font-face {
@@ -215,5 +215,5 @@ a:hover {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 800;
-  src: url("../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2") format("woff2");
+  src: url("../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2?v=e4a9ab5a42") format("woff2");
 }
