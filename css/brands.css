@@ -17,7 +17,6 @@
 .button-blog {
   --button-text: #e8e8e8;
   --button-background: #ff55a3;
-  --button-border: 1px solid #e8e8e8;
 }
 
 .button-bluesky {
@@ -28,13 +27,11 @@
 .button-github {
   --button-text: #ffffff;
   --button-background: #000000;
-  --button-border: 1px solid #ffffff;
 }
 
 .button-rocksky {
   --button-text: #ffffff;
   --button-background: #1a112a;
-  --button-border: 1px solid #ffffff;
 }
 
 .button-signal {
@@ -50,16 +47,19 @@
 .button-gotosocial {
   --button-text: #ffffff;
   --button-background: #aa55ff;
-  --button-border: 1px solid #ffffff;
 }
 
 .button-tangled {
   --button-text: #ffffff;
   --button-background: #000000;
-  --button-border: 1px solid #ffffff;
 }
 
 .button-trakt {
   --button-text: #ffffff;
-  --button-background: #ed1c24;
+  --button-background: #643bcf;
+}
+
+.button-pinkleap {
+  --button-text: #ffffff;
+  --button-background: #e31a88;
 }
