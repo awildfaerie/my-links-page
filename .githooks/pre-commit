@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Stamp asset URLs with content hashes, then include the result in the commit.
+set -euo pipefail
+
+cd "$(git rev-parse --show-toplevel)"
+scripts/cache-bust.sh
+git add -- '*.html' 'css/*.css'
